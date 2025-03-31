@@ -1,0 +1,235 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bg-secondary{
+    background-color: #007668 !important;
+}
+
+header .navbar-nav{
+    gap: 10PX;
+}
+
+.bg-light{
+    background-color: #008374 !important;
+
+}
+
+header .nav-item a{
+    color: #fff !important;
+    font-weight: 600;
+}
+#main{
+    height: 100vh;
+}
+
+.img-video{
+    width: 30px;
+    height: 30px;
+}
+
+.btn-secondary{
+    border: 2px solid;
+    background-color: #008374 !important;
+}
+
+#cards .card{
+    height: 17rem;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#cards .card:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+    background-color: #007668;
+}
+
+#cards img{
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    color: #fff;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#About img{
+    border-radius: 2%;
+}
+/* OUR SERVICES */
+.ame{
+   font-size: 35px;
+   margin-top: 10px;
+   margin: 10px ;
+}
+
+.title{
+    font-size: 45px;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.contente{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+    margin: 35% 40%;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+}
+
+#testimonial img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.position-relative:hover{
+    
+}
+
+#team i{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+#team .rounded-circle{
+    padding: 12px;
+    color: black;
+    
+}
+#team i:hover{
+    color: aqua !important;
+    
+}#team i{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+#team .rounded-circle{
+    padding: 12px;
+    color: black;
+    
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover{
+    border: none !important;
+    color: #008374 !important;
+
+}
+
+#team i:hover{
+    color: #008374 !important;
+    
+}
+#Portfolio img:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+
+#asked p button{
+    color: black;
+    font-size: 20px;
+}
+
+#asked p button:hover{
+    color: #007668;
+}
+
+#blog .contenter .left img{
+    width: 50px !important;
+    height: 50px !important;
+
+}
+
+.contenter{
+    display: flex;
+}
+
+#contact .bordere{
+    border: 2px solid;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 11px;
+}
+
+#contact i{
+    font-size: 20px;
+}
+
+#contact .bordere:hover{
+   background-color: #fff;
+   color: #007668;
+   cursor: pointer;
+}
+
+#contact .contenter .border{
+    border: 2px solid;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 10px;
+} 
+
+#contact .contenter .border:hover{
+    background-color: #fff;
+    color: #007668;
+    cursor: pointer;
+} 
+
+#contact .contenter{
+    background-color: #008374;
+}
+
+.bg-danger{
+    background-color: #007668 !important;
+
+}
+
+.controle{
+    width: 21rem;
+    height: 3rem;
+    margin-left: auto;
+}
+
+.control{
+    width: 92%;
+    height: 3rem;
+    margin-left: auto;
+}
+
+.contro{
+    width: 92%;
+    height: 15rem;
+    margin-left: auto;
+}
+
+.bouton{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 32%;
+}
+
