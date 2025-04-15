@@ -7,36 +7,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Tache 4</title>
 </head>
 
 <body>
+    <!------------------- header -------------------->
 
-    <!-- <section class="container-fluid bg-secondary justify-content-end align-items-end">
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-                <a href="#"><i class="fa-regular fa-envelope"></i>contactexemple@gmil.com</a>
-                <div class="card-body">
-                    <p><i class="fa-solid fa-mobile-screen-button m"></i>00221768250580</p>
+    <header id="header " class="header fixed-top">
+        <div class="info-content align-items-center">
+            <div class="container d-flex justfy-content-md-between">
+                <div class="left d-flex align-items-center">
+                    <i class="fa-regular fa-envelope me-3 d-flex align-items-center"><a href="#"
+                            class="m-2">contact@gmail.com</a></i>
+                    <i class="bi bi-phone me-3"><span class="m-3">00221768250580</span></i>
                 </div>
 
+                <div class="right d-md-flex align-items-center justify-content-center ">
+                    <a href="#"><i class="fa-brands fa-x-twitter fs-5 p-2 text-white"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fs-5 p-2  text-white"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fs-5 p-2 text-white"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fs-5 p-2 text-white"></i></a>
+                </div>
             </div>
-            <div class="col-md-6 col-lg-6 pe-5">
-                <a href="#"><i class="fa-brands fa-x-twitter fs-5 p-2"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook fs-5 p-2 "></i></a>
-                <a href="#"><i class="fa-brands fa-instagram fs-5 p-2"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin fs-5 p-2"></i></a>
-            </div>
-
         </div>
 
-    </section> -->
-
-    <!------------------- header -------------------->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top text-center">
-            <div class="container my-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-center ">
+            <div class="container ">
                 <a class="navbar-brand fs-2 fw-bolder text-white" href="#">Impact</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -44,7 +42,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center fs-5 me-5" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
+                    <ul class="navbar-nav mb-5 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#main">Home</a>
                         </li>
@@ -52,7 +50,7 @@
                             <a class="nav-link" href="#About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Service">Services</a>
+                            <a class="nav-link" href="#service">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Portfolio">Portfolio</a>
@@ -61,7 +59,7 @@
                             <a class="nav-link" href="#team">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#precing">Blog</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -85,67 +83,76 @@
                 </div>
             </div>
         </nav>
-        <main id="main" class="container-fluid py-5 bg-light text-white">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-6 col-lg-6 mt-lg-5 py-5 ">
-                    <h1>Welcome to Impact</h1>
-                    <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque
-                        eum quaerat.</p>
-                    <button type="button" class="btn btn-secondary fs-3 rounded-pill ">Get Started</button>
-                    <a href="https://youtu.be/Y7f98aduVJ8" type="button" class="btn text-white fs-5"><img
-                            src="image/IMG_5152.PNG" alt="" class="img-video m-2">Watch Video</a>
-                </div>
-                <div class="col-md-5 col-lg-0 py-5 mt-5">
-                    <img src="image/hero-img.svg" alt="" class="img-fluid">
-                </div>
-            </div>
-
-        </main>
-
-        <section id="cards" class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="card-body ">
-                        <div class="card bg-light text-white shadow">
-                            <img src="image/638206974756300000-removebg-preview.png" alt="" class="img-fluid">
-                            <h4>Lorem, ipsum.</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card-body">
-                        <div class="card bg-light text-white shadow">
-                            <img src="image/BIJOUTERIEVERT.png" alt="" class="img-fluid">
-                            <h4>Lorem, ipsum dolor.</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card-body">
-                        <div class="card bg-light text-white shadow ">
-                            <img src="image/images__1_-removebg-preview.png" alt="" class="img-fluid">
-                            <h4>Magni Dolres</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 justify-content-center align-items-center">
-                    <div class="card-body">
-                        <div class="card bg-light text-center text-white shadow">
-                            <img src="image/IMAGE4-removebg-preview.png" alt=""
-                                class="img-fluid w-50 justify-content-center">
-                            <h4>Nemo Enim</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </header>
+    <main id="main" class="container-fluid bg-light text-white py-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 col-lg-6 mt-lg-5 py-5 pt-5 mt-5">
+                <h1>Welcome to Impact</h1>
+                <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque
+                    eum quaerat.</p>
+                <button type="button" class="btn btn-secondary fs-3 rounded-pill ">Get Started</button>
+                <a href="https://youtu.be/Y7f98aduVJ8" type="button" class="btn text-white fs-5"><img
+                        src="image/IMG_5152.PNG" alt="" class="img-video m-2">Watch Video</a>
+            </div>
+            <div class="col-md-5 col-lg-0 py-5 mt-5 pt-5">
+                <img src="image/hero-img.svg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+    </main>
+
+    <section id="cards" class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card-body ">
+                    <div class="card bg-light text-white shadow">
+                        <div class="icn">
+                            <i class="bi bi-easel"></i>
+                        </div>
+                        <h4>Lorem, ipsum.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card-body">
+                    <div class="card bg-light text-white shadow">
+                        <div class="icn">
+                            <i class="bi bi-gem"></i>
+                        </div>
+                        <h4>Lorem, ipsum dolor.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card-body">
+                    <div class="card bg-light text-white shadow ">
+                        <div class="icn">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <h4>Magni Dolres</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 justify-content-center align-items-center">
+                <div class="card-body">
+                    <div class="card bg-light text-center text-white shadow">
+                        <div class="icn">
+                            <i class="bi bi-command"></i>
+                        </div>
+                        <h4>Nemo Enim</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!------------------- header fin -------------------->
 
     <!------------------- section About -------------------->
-    <section id="About" class="container text- py-5">
-        <h1 class="text-center">About Us</h1>
-        <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    <section id="About" class="container py-5">
+        <h1 class="text-center title">About Us</h1>
+        <p class="text-center py-3">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+        </p>
         <div class="row py-5">
             <div class="col-md-6 col-lg-6">
                 <h2 class="fs-1">Voluptatem dignissimos provident laboris nisi ut aliquip ex ea commodo</h2>
@@ -164,11 +171,12 @@
             <div class="col-md-6 col-lg-6">
                 <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p><i class="fa-solid fa-circle-check mt-5" style="color: #008374;"></i> Ullamco laboris nisi ut aliquip
+                <p><i class="fa-solid fa-circle-check me-2" style="color: #008374;"></i> Ullamco laboris nisi ut aliquip
                     ex ea commodo consequat.</p>
-                <p><i class="fa-solid fa-circle-check" style="color: #008374;"></i>Duis aute irure dolor in
+                <p><i class="fa-solid fa-circle-check me-2" style="color: #008374;"></i>Duis aute irure dolor in
                     reprehenderit in voluptate velit.</p>
-                <p><i class="fa-solid fa-circle-check" style="color: #008374;"></i>Ullamco laboris nisi ut aliquip ex ea
+                <p><i class="fa-solid fa-circle-check me-2" style="color: #008374;"></i>Ullamco laboris nisi ut aliquip
+                    ex ea
                     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
                     mastiro dolore eu fugiat nulla pariatur.</p>
                 <h4 class="mt-5">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -226,13 +234,13 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="number d-flex">
                                 <i class="fa-regular fa-face-smile ame" style="color: #63E6BE;"></i>
-                                <h1 class="title">232</h1>
+                                <h1 class="titl">232</h1>
                             </div>
                             <p class="text-secondary"><span class="text-secondary fs-5 fw-bolder">Happy Clients</span>
                                 consequuntur quae</p>
                             <div class="number d-flex">
                                 <i class="fa-solid fa-headphones ame" style="color: #63E6BE;"></i>
-                                <h1 class="title">1 453</h1>
+                                <h1 class="titl">1 453</h1>
                             </div>
                             <p class="text-secondary"><span class="text-secondary fs-5 fw-bolder">Hours Of
                                     Support</span> aut commodi quaerat</p>
@@ -240,13 +248,13 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="number d-flex">
                                 <i class="fa-regular fa-address-book ame" style="color: #63E6BE;"></i>
-                                <h1 class="title">521</h1>
+                                <h1 class="titl">521</h1>
                             </div>
                             <p class="text-secondary"><span class="text-secondary fs-5 fw-bolder">Projects</span>
                                 adipisci atque cum quia aut</p>
                             <div class="number d-flex">
                                 <i class="fa-regular fa-user ame" style="color: #63E6BE;"></i>
-                                <h1 class="title">32</h1>
+                                <h1 class="titl">32</h1>
                             </div>
                             <p class="text-secondary"><span class="text-secondary fs-5 fw-bolder">Hard Workers</span>
                                 rerum asperiores dolor</p>
@@ -271,11 +279,11 @@
     </section>
     <!------------------- section About fin -------------------->
 
-    <!-- our services -->
+    <!---------------------- our services ---------------------->
     <section id="service" class="service-section">
         <div class="container service-title text-center">
-            <h2>Our Services</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <h2 class="title">Our Services</h2>
+            <p class="py-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             <div class="container py-5">
                 <div class="row gy-5">
                     <div class="col-lg-4 col-md-6">
@@ -376,8 +384,8 @@
     <section id="testimonial">
         <div class="container">
             <div class="text-center py-4">
-                <h1 class="fw-bolder cont">Testimonial</h1>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum
+                <h1 class="fw-bolder title">Testimonial</h1>
+                <p class="py-4">Necessitatibus eius consequatur ex aliquid fuga eum
                     quidem sint consectetur velit</p>
             </div>
             <div class="row text-center ">
@@ -393,6 +401,7 @@
                                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+
                                 <p class="perac py-3">"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -414,6 +423,8 @@
                                     cillum dolore eu fugiat nulla pariatur. Excepteur sint"</p>
 
                             </div>
+
+
                             <div class="carousel-item">
                                 <img src="image/testimonials-3.jpg" class="img-fluid avatar mb-4" alt="...">
                                 <h4 class="text-dark cont">Jena karlis</h4>
@@ -482,37 +493,37 @@
     <section id="Portfolio" class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h2 class="text-dark  fw-bold mb-3">Portfolio</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h2 class="text-dark  fw-bold mb-3 title">Portfolio</h2>
+                <p class="py-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <ul class="nav nav-tabs  justify-content-center mt-4 g-2" id="myTab" role="tablist">
+                <ul class="nav nav-tabs justify-content-center mt-4 g-2" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link fw-bold  active fs-5 me-2 me-md-4" id="home-tab" data-bs-toggle="tab"
+                        <button class="nav-link active fs-5 fw-bolder me-2 me-md-4" id="home-tab" data-bs-toggle="tab"
                             data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
                             aria-selected="true">All</button>
                     </li>
 
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link fw-bold  fs-5 text-dark me-2 me-md-4" id="profile-tab"
-                            data-bs-toggle="tab" data-bs-target="#app-tab-pane" type="button" role="tab"
+                        <button class="nav-link text-dark fs-5 fw-bolder me-2 me-md-4" id="profile-tab"
+                            data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab"
                             aria-controls="profile-tab-pane" aria-selected="false">App</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link  fw-bold  fs-5 text-dark me-2 me-md-4" id="contact-tab"
-                            data-bs-toggle="tab" data-bs-target="#produit-tab-pane" type="button" role="tab"
-                            aria-controls="contact-tab-pane" aria-selected="false">Product</button>
+                        <button class="nav-link text-dark fs-5 fw-bolder me-2 me-md-4" id="contact-tab"
+                            data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
+                            aria-controls="contact-tab-pane" aria-selected="false">Produits</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link fw-bold  text-dark fs-5 me-2 me-md-4" id="contact-tab"
-                            data-bs-toggle="tab" data-bs-target="#branding-tab-pane" type="button" role="tab"
+                        <button class="nav-link text-dark fs-5 fw-bolder me-2 me-md-4" id="contact-tab"
+                            data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
                             aria-controls="contact-tab-pane" aria-selected="false">Branding</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link text-dark fw-bold fs-5 me-2 me-md-4" id="contact-tab"
-                            data-bs-toggle="tab" data-bs-target="#books-tab-pane" type="button" role="tab"
+                        <button class="nav-link text-dark fs-5 fw-bolder me-2 me-md-4" id="contact-tab"
+                            data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
                             aria-controls="contact-tab-pane" aria-selected="false">Books</button>
                     </li>
                 </ul>
@@ -520,351 +531,233 @@
                     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
                         tabindex="0">
                         <div class="row mt-4 g-4">
-                            <div class="col-12 col-lg-4">
-                                <div class="card">
+                            <div class="col-12 col-lg-4 ">
+                                <div class="card shadow">
                                     <div class="card-body">
-                                        <a href="#"><img src="image/app-1.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5 pt-5"> App 1</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
+                                        <img src="image/app-1.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-2">
+                                            <span><a href="#" class="fs-4">App 1</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="card">
+                                <div class="card shadow">
                                     <div class="card-body">
-                                        <a href="#"><img src="image/product-1.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">Produit 2</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
+                                        <img src="image/product-1.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-2">
+                                            <span><a href="#" class="fs-4">Produits 1</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="card">
+                                <div class="card shadow">
                                     <div class="card-body">
-                                        <a href="#"><img src="image/branding-1.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">Produit 4</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-lg-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <a href="#"><img src="image/books-1.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">Books 1</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <a href="#"><img src="image/app-2.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">App 2</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <a href="#"><img src="image/product-2.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">Produit 2</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
+                                        <img src="image/branding-1.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-2">
+                                            <span><a href="#" class="fs-4">Branding 1</a></sp>
+                                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <div class="card">
+                                <div class="card shadow">
                                     <div class="card-body">
-                                        <a href="#"><img src="image/branding-2.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">Branding 2</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
+                                        <img src="image/books-1.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">Books 1</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="card">
+                                <div class="card shadow">
                                     <div class="card-body">
-                                        <a href="#"><img src="image/books-2.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">Books 2</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
+                                        <img src="image/app-2.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">App 2</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="card">
+                                <div class="card shadow">
                                     <div class="card-body">
-                                        <a href="#"><img src="image/app-3.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">App 3</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
+                                        <img src="image/product-2.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">Produits 2</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <div class="card">
+                                <div class="card shadow">
                                     <div class="card-body">
-                                        <a href="https://bootstrapmade.com/content/demo/Impact/"><img
-                                                src="image/product-3.jpg" alt="" class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">Produit 3</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
+                                        <img src="image/branding-2.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">Branding 2</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="card">
+                                <div class="card shadow">
                                     <div class="card-body">
-                                        <a href="https://bootstrapmade.com/content/demo/Impact/"><img
-                                                src="image/branding-3.jpg" alt=""
-                                                class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">Branding 3</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
+                                        <img src="image/books-2.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">Books 2</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="card">
+                                <div class="card shadow">
                                     <div class="card-body">
-                                        <a href="https://bootstrapmade.com/content/demo/Impact/"><img
-                                                src="image/books-3.jpg" alt="" class="img-fluid b-radius rounded"></a>
-                                        <span class="fs-5">Books 3</span>
-                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
+                                        <img src="image/app-3.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">App 3</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
+                            <div class="col-12 col-lg-4">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="image/product-3.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">Produits 3</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="image/branding-3.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <h4><a href="#" class="fs-4">Branding 3</a></h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="image/books-3.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-4">
+                                            <h4><a href="#" class="fs-4">Books 3</a></h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                        tabindex="0">
+                        <div class="row mt-4 g-4">
+                            <div class="col-12 col-lg-4 ">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="image/app-1.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-2">
+                                            <span><a href="#" class="fs-4">App 1</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 ">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="image/app-2.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-2">
+                                            <span><a href="#" class="fs-4">App 2</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 ">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="image/app-3.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-2">
+                                            <span><a href="#" class="fs-4">App 3</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                        tabindex="0">
+                        <div class="row mt-5 g-4">
+                            <div class="col-12 col-lg-4">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="image/product-1.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">Produits 1</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="image/product-2.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">Produits 2</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="image/product-3.jpg" alt="" class="img-fluid d-block mw-auto">
+                                        <div class="text py-3">
+                                            <span><a href="#" class="fs-4">Produits 3</a></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
                 </div>
 
-                <!-- <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
-                    tabindex="0">
-                    <div class="row mt-4 g-4">
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/app-1.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5"> App 1</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/app-2.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5"> App 2</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/app-3.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5"> App 3</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div> -->
-
-                <!-- <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                    tabindex="0">
-                    <div class="row mt-5 g-4">
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/app-1.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5"> App 1</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/app-1.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5"> App 1</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/app-1.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5"> App 1</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                    tabindex="0">
-                    <div class="row mt-5 g-4">
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/product-1.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5"> Produit 1</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/product-2.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5">Product 2</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/product-3.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5"> product 3</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                    tabindex="0">
-                    <div class="row mt-5 g-4">
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/branding-1.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5">Branding 1</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/branding-2.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5">Branding 2</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/branding-3.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5">Branding 3</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                    tabindex="0">
-                    <div class="row mt-5 g-4">
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/books-1.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5"> Books 1</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/books-2.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5">Books 2</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="#"><img src="image/books-3.jpg" alt=""
-                                            class="img-fluid b-radius rounded"></a>
-                                    <span class="fs-5 pt-5">Books 3</span>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
             </div>
-        </div>
-        </div>
         </div>
     </section>
 
     <!-- our team -->
     <section id="team" class="text-center py-5">
-        <h2 class="fw-bold">Our Team</h2>
-        <p class="fs-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2 class="fw-bold title">Our Team</h2>
+        <p class="fs-5 py-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         <div class="container py-3">
             <div class="row">
                 <div class="col-lg-3 col-md-4">
@@ -873,10 +766,15 @@
                             <img src="image/team-1.jpg" alt="" class="img-fluid rounded">
                             <h3>Walter White</h3>
                             <p class="text-secondary">Web Development</p>
-                            <i class="fa-brands fa-x-twitter fs-4 text-secondary rounded-circle "></i>
-                            <i class="fa-brands fa-facebook fs-4 text-secondary rounded-circle "></i>
-                            <i class="fa-brands fa-instagram fs-4 text-secondary rounded-circle "></i>
-                            <i class="fa-brands fa-linkedin fs-4 text-secondary rounded-circle "></i>
+                            <div class="liste">
+                                <ul
+                                    class="list-unstyled d-flex justify-content-center justfy-content-between-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                                    <a href="#"><i class="fa-brands fa-x-twitter fs-4 "></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook fs-4 "></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram fs-4 "></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin fs-4 "></i></a>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -887,10 +785,15 @@
                             <img src="image/team-2.jpg" alt="" class="img-fluid b-radius rounded">
                             <h3>Sarah Jhinson</h3>
                             <p class="text-secondary">Marketing</p>
-                            <i class="fa-brands fa-x-twitter fs-4 text-secondary rounded-circle"></i>
-                            <i class="fa-brands fa-facebook fs-4 text-secondary rounded-circle"></i>
-                            <i class="fa-brands fa-instagram fs-4 text-secondary rounded-circle"></i>
-                            <i class="fa-brands fa-linkedin fs-4 text-secondary rounded-circle"></i>
+                            <div class="liste">
+                                <ul
+                                    class="list-unstyled d-flex justify-content-center justfy-content-between-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                                    <a href="#"><i class="fa-brands fa-x-twitter fs-4 "></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook fs-4 "></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram fs-4   "></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin fs-4  "></i></a>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -901,10 +804,15 @@
                             <img src="image/team-3.jpg" alt="" class="img-fluid rounded">
                             <h3>William Anderson</h3>
                             <p class="text-secondary">Content</p>
-                            <i class="fa-brands fa-x-twitter fs-4 text-secondary rounded-circle"></i>
-                            <i class="fa-brands fa-facebook fs-4 text-secondary rounded-circle"></i>
-                            <i class="fa-brands fa-instagram fs-4 text-secondary rounded-circle"></i>
-                            <i class="fa-brands fa-linkedin fs-4 text-secondary rounded-circle"></i>
+                            <div class="liste">
+                                <ul
+                                    class="list-unstyled d-flex justify-content-center justfy-content-between-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                                    <a href="#"><i class="fa-brands fa-x-twitter fs-4 "></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook fs-4 "></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram fs-4"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin fs-4 "></i></a>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -915,10 +823,15 @@
                             <img src="image/team-4.jpg" alt="" class="img-fluid rounded">
                             <h3 class="fw-bolder">Amanda Jepson</h3>
                             <p class="text-secondary">Accountant </p>
-                            <i class="fa-brands fa-x-twitter fs-4 text-secondary rounded-circle"></i>
-                            <i class="fa-brands fa-facebook fs-4 text-secondary rounded-circle"></i>
-                            <i class="fa-brands fa-instagram fs-4 text-secondary rounded-circle"></i>
-                            <i class="fa-brands fa-linkedin fs-4 text-secondary rounded-circle"></i>
+                            <div class="liste">
+                                <ul
+                                    class="list-unstyled d-flex justify-content-center justfy-content-between-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                                    <a href="#"><i class="fa-brands fa-x-twitter fs-4"></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook fs-4"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram fs-4"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin fs-4"></i></a>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -930,8 +843,8 @@
     <section id="precing">
         <div class="container-fluid">
             <div class="text-center">
-                <h1>Pricing</h1>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h1 class="title">Pricing</h1>
+                <p class="py-3">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div>
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-4">
@@ -942,10 +855,10 @@
                                 <i class="fa-solid fa-cube"></i>
                             </div>
                             <h4 class="text-center mt-2">
-                                    <sup>$</sup>
-                                    0
-                                    <span>/month</span>
-                                </h4>
+                                <sup>$</sup>
+                                0
+                                <span>/month</span>
+                            </h4>
                             <ul class="py-5 ">
                                 <li>
                                     <P><i class="fa-solid fa-check me-2 fs-5" style="color: #63E6BE;"></i>Quam
@@ -984,7 +897,7 @@
                                 </li>
                                 <button type="button" class="btn border  rounded-pill ">Get Started</button>
                             </ul>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -992,18 +905,17 @@
                 <!-- 2 cols -->
                 <div class="col-md-4 justify-content-center align-items-center">
                     <div class="card-body ">
-                        <div class="card border-5 rounded justify-content-center p-5 h-100">
+                        <div class="card border-5 border-secondary rounded justify-content-center p-5 h-100">
                             <h3 class="text-center">Business Plan</h3>
                             <div class="icone">
                                 <i class="fa-solid fa-rocket"></i>
                             </div>
 
-                            <h4 class="text-center mt-2"
-                            >
+                            <h4 class="text-center mt-2">
                                 <sup>$</sup>
                                 29
                                 <span class="fw-lighter">/month</span>
-                            </h4> 
+                            </h4>
                             <ul class="py-5 ">
                                 <li>
                                     <P><i class="fa-solid fa-check me-2 fs-5" style="color: #63E6BE;"></i>Quam
@@ -1040,7 +952,7 @@
                                         massa
                                         massa ultricies</p>
                                 </li>
-                            <button type="button" class="btn border  rounded-pill ">Get Started</button>
+                                <button type="button" class="btn border  rounded-pill ">Get Started</button>
                             </ul>
                         </div>
                     </div>
@@ -1220,8 +1132,9 @@
     <!-- Recente Blog Posts -->
     <section id="blog" class="py-5">
         <div class="text-center">
-            <h2 class="fw-bold">Recent Blog Posts</h2>
-            <p class="fw-lighter">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <h2 class="fw-bold title">Recent Blog Posts</h2>
+            <p class="fw-lighter py-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            </p>
         </div>
         <div class="container py-5">
             <div class="row gy-5">
@@ -1291,12 +1204,13 @@
         <div class="container bg-secondary-subtle">
             <div class="text-center">
                 <div class="text-center">
-                    <h2 class="fw-bold">Contact</h2>
-                    <p class="fw-lighter">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur
+                    <h2 class="fw-bold title">Contact</h2>
+                    <p class="fw-lighter py-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                        consectetur
                         velit</p>
                 </div>
             </div>
-            <div class="row py-5 bg-white shadow">
+            <div class="row py-5 bg-white shadow gy-5">
                 <div class="col-md-4 border border-secondary bg-danger text-white py-2">
                     <div class="contenter border border-white">
                         <div class="left m-3 bordere">
@@ -1344,14 +1258,62 @@
                     </div>
                 </div>
 
-
-                <div class="col-md-8 justify-content-center">
-                    <form action="#">
-                        <input type="text" name="name" id="#" placeholder="Your Name" class="controle">
-                        <input type="email" name="email" id="#" placeholder="Your Email" class="controle mt-3"><br>
-                        <input type="text" name="sujet" id="" placeholder="Sujet" class="control mt-4"><br>
-                        <input type="text" name="message" id="message" placeholder="Message" class="contro mt-4">
-                        <button type="button" class="btn btn-secondary bouton mt-3">Send Message</button>
+                <div class="col-md-8 justify-content-center py-5 gy-5">
+                    <form action="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Your Name"
+                                            aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="input-group mb-3">
+                                        <input type="email" class="form-control" placeholder="Your Email"
+                                            aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="input-group mb-3">
+                                        <input type="tel" class="form-control" placeholder="Your Phone"
+                                            aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="input-group mb-3">
+                                        <input type="date" class="form-control" aria-label="Username"
+                                            aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="input-group mb-3">
+                                        <input type="time" class="form-control" placeholder="Your Name"
+                                            aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <form class="form-floating">
+                                        <input type="number" class="form-control is-invalid" id="floatingInputInvalid"
+                                            placeholder="# of people" value="test@example.com">
+                                        <label for="floatingInputInvalid"></label>
+                                    </form>
+                                </div>
+    
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here"
+                                            id="floatingTextarea2" style="height: 150px"></textarea>
+                                        <label for="floatingTextarea2">Message</label>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="justify-content-center text-center py-2">
+                            <button type="button" class="btn btn-secondary text-center bouton mt-3 rounded-5">Sen
+                                Message</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -1367,6 +1329,12 @@
                 <a href="#"><strong class="text-white fs-5 fw-5">Impact</strong></a>
                 <h6 class="mt-3">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna
                     derita valies darta donna mare fermentum iaculis eu non diam phasellus.</h6>
+                <ul class="list-unstyled d-flex social-icone mb-3 mb-md-0">
+                    <a href="#"><i class="fa-brands fa-x-twitter fs-4  "></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fs-4  "></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fs-4 "></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fs-4  "></i></a>
+                </ul>
             </div>
             <div class="col-md-7">
                 <div class="container py-5">
@@ -1412,8 +1380,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
-
 
 </body>
 
